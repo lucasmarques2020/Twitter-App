@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+    
     <View style={styles.container}>
-      <Text>Tela HOME</Text>
-      <StatusBar style="auto" />
+        <Text>Tela HOME</Text>
     </View>
   );
 }
